@@ -43,7 +43,8 @@ p {
    font-size: 20px;
 }
 
-.input {
+.nameClass,
+.ageClass {
     display: block;
     height: 40px;
     font-size: 20px;
