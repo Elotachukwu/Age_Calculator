@@ -45,26 +45,4 @@ function calculateAge(){
         alert("Fill in your age");
         return;
     } 
-
-// }
-// var nowDate = new Date(new Date().setHours(0, 0, 0, 0));
-// console.log(nowDate);
-//     // Example date of birth.
-//     var dobDate = new Date();
-//     console.log(dobDate);
-
-//     var years = nowDate.getFullYear() - dobDate.getFullYear();
-//     var months = nowDate.getMonth() - dobDate.getMonth();
-//     var days = nowDate.getDate() - dobDate.getDate();
-
-//     function calculateAge(dateString) {
-//         var today = new Date();
-//         var birthDate = new Date(dateString);
-//         var age = today.getFullYear() - birthDate.getFullYear();
-//         var m = today.getMonth() - birthDate.getMonth();
-//         if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-//             age--;
-//         }
-//         return age;
-//     }
 }
