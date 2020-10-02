@@ -8,19 +8,32 @@
 </head>
 <body>
 
-    <div class="welcome">
+<div class="body">
+
+    <div class="welcome" id="div1">
         <h3>Welcome to</h3>
         <h1>Age Calculator</h1>
-        <button>Start Now</button>
+        <button type="button" class="start">Start Now</button>
     </div>
 
-    <div class="heading">
+    <div class="heading hidden" id="div2">
         <h1>Age Calculator</h1>
+        <p>Enter your name and age below;</p>
+        <input class="nameClass" type="text" id="nameId" placeholder="Type Your Name Here...">
+        <input class="ageClass" type="number" id="ageId" placeholder="Type Your Age Here...">
+        <button type="submit" onclick="calculateAge()" id="submit">Submit</button>
     </div>
-    <p>Enter your name and age below;</p>
-    <input type="text" placeholder="Type Your Name Here...">
-    <input type="text" placeholder="Type Your Age Here...">
-    <button>Submit</button>
+
+    <div class="response hidden" id="div3">
+        <h1>Age Calculator</h1>
+        <p>Your result:</p>
+        <p>Name : <span id="nameResId" class="nameResponse"></span></p>
+        <p>Age : You are <span id="ageResId" type="text" class="ageResponse"></span>years old</p>
+        <p>Days :You have lived <span id="daysResId" type="text" class="daysResponse"></span>days on earth!</p>
+        <button type="reset" class="reset" id="buttonPrint">Return</button>
+
+    </div> 
+  </div>
     
 </body>
 <script src="script.js"></script>
