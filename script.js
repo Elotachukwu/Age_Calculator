@@ -46,3 +46,21 @@ function calculateAge(){
         return;
     } 
 }
+
+
+var body = document.querySelector("body");
+var isBlue = false;
+
+setInterval(function(){
+    if (isBlue){
+        body.style.background = "yellow";
+    } else {
+        body.style.background = "#3498db"
+    }
+    isBlue = !isBlue;
+}, 1000)
+
+var button = document.querySelector("button");
+button.addEventListener("click", function(){
+    console.log("Someone clicked the button!");
+});

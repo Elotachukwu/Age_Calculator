@@ -5,9 +5,7 @@ Age_Calculator displays the name of the user, age in years and calculates the nu
 [See live project here](https://raw.githack.com/Elotachukwu/Age_Calculator/master/index.html)
 
 ### Prototypes
-![These are the prototypes used.](Age_Calculator1.jpg "This is the prototype of the first page.")
-![These are the prototypes used.](Age_Calculator2.jpg "This is the prototype of the first page.")
-![These are the prototypes used.](Age_Calculator3.jpg "This is the prototype of the third page.")
+![These are the prototypes used.](Age_Calculator1.jpg "these are the prototypes used.")
 
 ### Languages used
 * HTML
