@@ -13,7 +13,9 @@ Age_Calculator displays the name of the user, age in years and calculates the nu
 * [Twitter](https://twitter.com/elotachukwu)
 
 ### Prototypes
-![These are the prototypes used.](./assets/images/Age_Calculator1.jpg "these are the prototypes used.")
+![These are the prototypes used.](./assets/images/Age_Calculator1.jpg "First Page.")
+![These are the prototypes used.](./assets/images/Age_Calculator2.jpg "Second Page.")
+![These are the prototypes used.](./assets/images/Age_Calculator3.jpg "Third Page.")
 
 ### Languages used
 * HTML
