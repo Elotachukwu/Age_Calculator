@@ -12,5 +12,10 @@ Age_Calculator displays the name of the user, age in years and calculates the nu
 * CSS
 * JavaScript
 
+### Contact
+* [FaceBook](https://web.facebook.com/chiagoziem.ede/)
+* [Linkedin](https://www.linkedin.com/in/chiagoziem-ede-5152a4175/)
+* [Twitter](https://twitter.com/elotachukwu)
+
 ### Tool(s) used
 * Visual Studio Code
