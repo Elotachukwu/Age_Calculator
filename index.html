@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Age Calculator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="body">
+  <div class="body">
 
     <div class="welcome" id="div1">
-        <h3>Welcome to</h3>
-        <h1>Age Calculator</h1>
-        <button type="button" class="start">Start Now</button>
+      <h3>Welcome to</h3>
+      <h1>Age Calculator</h1>
+      <button type="button" class="start">Start Now</button>
     </div>
 
     <div class="heading hidden" id="div2">
-        <h1>Age Calculator</h1>
-        <p>Enter your name and age below;</p>
-        <input class="nameClass" type="text" id="nameId" placeholder="Type Your Name Here...">
-        <input class="ageClass" type="number" id="ageId" placeholder="Type Your Age Here...">
-        <button type="submit" onclick="calculateAge()" id="submit">Submit</button>
+      <h1>Age Calculator</h1>
+      <p>Enter your name and age below;</p>
+      <input class="nameClass" type="text" id="nameId" placeholder="Type Your Name Here...">
+      <input class="ageClass" type="number" id="ageId" placeholder="Type Your Age Here...">
+      <button type="submit" onclick="calculateAge()" id="submit">Submit</button>
     </div>
 
     <div class="response hidden" id="div3">
-        <h1>Age Calculator</h1>
-        <p>Your result:</p>
-        <p>Name : <span id="nameResId" class="nameResponse"></span></p>
-        <p>Age : You are <span id="ageResId" type="text" class="ageResponse"></span>years old</p>
-        <p>Days :You have lived <span id="daysResId" type="text" class="daysResponse"></span>days on earth!</p>
-        <button type="reset" class="reset" id="buttonPrint">Return</button>
-
+      <h1>Age Calculator</h1>
+      <p>Your result:</p>
+      <p>Name : <span id="nameResId" class="nameResponse"></span></p>
+      <p>Age : You are <span id="ageResId" type="text" class="ageResponse"></span>years old</p>
+      <p>Days :You have lived <span id="daysResId" type="text" class="daysResponse"></span>days on earth!</p>
+      <button type="reset" class="reset" id="buttonPrint">Return</button>
     </div> 
   </div>
     
+  
+  <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
 </html>

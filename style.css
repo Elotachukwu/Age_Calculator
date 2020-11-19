@@ -1,61 +1,61 @@
 body {
-    background: skyblue;
+  background: skyblue;
 }
 
 .body {
-    display: block;
-    text-align: center;
-    margin: 10%;
-    line-height: 1rem;
-    text-align: justify;
+  display: block;
+  text-align: center;
+  margin: 10%;
+  line-height: 1rem;
+  text-align: justify;
 }
 
 button {
-    background-color: rgb(0, 0, 31);
-    color: #f9f9f9;
-    margin-left: 20%;
-    margin-top: 5%;
-    border-radius: 40px;
-    padding: 2%;
-    font: bold 100% Arial;
-    border: solid black;
+  background-color: rgb(0, 0, 31);
+  color: #f9f9f9;
+  margin-left: 20%;
+  margin-top: 5%;
+  border-radius: 40px;
+  padding: 2%;
+  font: bold 100% Arial;
+  border: solid black;
 }
 
 .button {
-    font: bold 100% Arial;
-    background-color: rgb(0, 0, 31);
-    color: #f9f9f9;
-    padding: 2%;
-    border-radius: 40px;
-    margin: 5% 0% 0% 20%;
-    text-decoration: none;
+  font: bold 100% Arial;
+  background-color: rgb(0, 0, 31);
+  color: #f9f9f9;
+  padding: 2%;
+  border-radius: 40px;
+  margin: 5% 0% 0% 20%;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 p {
-   font-size: 20px;
+  font-size: 20px;
 }
 
 .nameClass,
 .ageClass {
-    display: block;
-    height: 40px;
-    font-size: 20px;
-    margin: 20px;
-    border-radius: 5%;
+  display: block;
+  height: 40px;
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 5%;
 }
 
 .inputResponse {
-    display: block;
+  display: block;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
